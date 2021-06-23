@@ -1,129 +1,136 @@
 body {
-    margin: 0px;
-    font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
 }
 .left-column > .contact-hours-wrapper {
-    display: grid;
-    grid-template-columns: 1fr;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto Slab', serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Slab", serif;
 }
 
 /* Footer styles */
 .footer {
-    background-color: #11122b;
-    color: #cbcbcb;
-    font-family: "Ubuntu Condensed", sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 400px;
+  background-color: #11122b;
+  color: #cbcbcb;
+  font-family: "Ubuntu Condensed", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 400px;
 }
 
 /* Footer styles */
 .footer > .logo-footer img {
-    width: 180px;
-    height: auto;
-    opacity: 0.5;
-    filter: brightness(30%);
+  width: 180px;
+  height: auto;
+  opacity: 0.5;
+  filter: brightness(30%);
 }
 
 .footer > .footer-phone-hours span {
-    margin-left: 10px;
-    margin-right:10px ;
-    font-size: 1em;
-    letter-spacing: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 1em;
+  letter-spacing: 2px;
 }
 
 .footer > .footer-phone-hours > .hours {
-    font-size: 0.8em;
-    color: #cea135;
-    text-transform: uppercase;
+  font-size: 0.8em;
+  color: #cea135;
+  text-transform: uppercase;
 }
 
-.footer > .copyright-wrapper{
-    margin-bottom: 42px;
-    font-size:0.7em;
-    color: #858585;
+.footer > .copyright-wrapper {
+  margin-bottom: 42px;
+  font-size: 0.7em;
+  color: #858585;
 }
 
 .footer > .social-media-icons-wrapper {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    width: 300px;
-    display: flex;
-    justify-content: space-around;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .footer > .social-media-icons-wrapper a {
-    font-size: 1.5em;
-    color: #cbcbcb;
-    transition: 0.5s;
+  font-size: 1.5em;
+  color: #cbcbcb;
+  transition: 0.5s;
 }
 
 .footer > .social-media-icons-wrapper a:hover {
-    color: #cea135;
+  color: #cea135;
 }
 
 .skewed-header {
-    position: relative;
-    height: 400px;
-    overflow: hidden;
+  position: relative;
+  height: 400px;
+  overflow: hidden;
 }
 .skewed-header > .header-bg {
-    position: absolute;
-    top: 0;
-    bottom: 0; 
-    right: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    transform: skewY(-6deg);
-    transform-origin: top left;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transform: skewY(-6deg);
+  transform-origin: top left;
 }
 
 .skewed-header > .skewed-header-wrapper {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    width: 100vw;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
 }
 
 .skewed-header > .skewed-header-wrapper > .skewed-header-content {
-    width: 1000px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.skewed-header > .skewed-header-wrapper > .skewed-header-content > .heading-wrapper {
-    background-color: #CEA135;
-    color: #11122B;
-    width: 175px;
-    border-bottom-left-radius: 2px;
-    border-bottom-right-radius: 2px;
-    padding: 10px;
-    text-align: center;
+.skewed-header
+  > .skewed-header-wrapper
+  > .skewed-header-content
+  > .heading-wrapper {
+  background-color: #cea135;
+  color: #11122b;
+  width: 175px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  padding: 10px;
+  text-align: center;
 }
 
 .page-container {
-    display:flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .page-container > .content-wrapper {
-    width: 1000px;
+  width: 1000px;
 }
 
 .page-container > .content-wrapper > #chef {
-    width:350px;
-    margin: 23px 40px 20px 0;
-    float: left;
+  width: 350px;
+  margin: 23px 40px 20px 0;
+  float: left;
 }
 /* Square Grid Styles */
