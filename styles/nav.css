@@ -55,7 +55,7 @@ navigation-wrapper > .left-column > .contact-hours-wrapper {
 .navigation-wrapper > .center-column > .banner-image img {
     font-family: 'Ubuntu Condensed', sans-serif;
     width: 216px;
-    height: 100%;
+    height: auto;
 }
 
 .navigation-wrapper > .center-column > .banner-image {
