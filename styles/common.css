@@ -118,10 +118,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .page-container > .content-wrapper {
-    width: 100px;
+    width: 1000px;
 }
 
 .page-container > .content-wrapper > #chef {
     width:350px;
-    margin: 25px;
+    margin: 23px 40px 20px 0;
+    float: left;
 }
