@@ -30,7 +30,6 @@
     font-size: 1.5em;
     width: 100%;
   }
-
   .navigation-wrapper > .right-column {
     order: 3;
     margin-top: 15px;
@@ -51,7 +50,7 @@
     height: 100%;
   }
 
-  .skewed-header > . .skewed-header-wrapper > .skewed-header-content {
+  .skewed-header > .skewed-header-wrapper > .skewed-header-content {
     flex-direction: column;
   }
 
@@ -63,8 +62,26 @@
     padding-left: 21px;
     padding-right: 21px;
   }
-  .page-container > .content-wrapper > #chef {
+  .content-wrapper > #chef {
     margin: 0px 0px 25px 0px !important;
     width: 100% !important;
   }
+
+  .square {
+    grid-template-columns: 1fr !important;
+  }
+
+  .contact-grid-wrapper {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+.form input {
+    padding: 1.5rem 0rem;
+}
+
+.form textarea {
+    padding: 1.5rem 0rem;
+}
 }
